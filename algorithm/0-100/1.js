@@ -38,6 +38,7 @@ var twoSum = function(nums, target) {
         }
         // 如果不存在相等的情况，则将值存入哈希表
         map.set(nums[i],i)
+        
     }
 };
 
